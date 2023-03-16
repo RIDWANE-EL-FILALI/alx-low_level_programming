@@ -1,8 +1,8 @@
 #include  <stdio.h>
 
-/*
-* main : entry for the programe
-
+/**
+* main - entry for the programe
+* 
 * return 0 : for sucess and 1 for failure
 */
 
