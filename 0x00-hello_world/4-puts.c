@@ -1,8 +1,9 @@
 #include  <stdio.h>
 
 /*
-main entry for the programe
-return 0 for sucess aand 1 for failure
+* main : entry for the programe
+
+* return 0 : for sucess and 1 for failure
 */
 
 int	main(void)
