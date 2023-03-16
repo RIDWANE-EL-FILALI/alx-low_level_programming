@@ -1,11 +1,9 @@
 #include  <stdio.h>
-
 /**
-* main - entry for the programe
-* 
-* return 0 : for sucess and 1 for failure
+ * main -Entry point
+ *
+ * Return: Always 0 (Success)
 */
-
 int	main(void)
 {
 	char tab[100] = "\"Programming is like building a multilingual puzzle";
