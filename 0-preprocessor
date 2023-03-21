@@ -1,2 +1,0 @@
-#!/bin/bash
-clang -E $CFILE -o c
