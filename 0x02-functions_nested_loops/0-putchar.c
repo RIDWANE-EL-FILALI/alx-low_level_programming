@@ -5,8 +5,14 @@
 *
 * Return: 0
 */
+
+void _putchar(char *str)
+{
+	puts(str);
+}
+
 int main(void)
 {
-	write(1,"_putchar\n",9);
+	_putchar("_putchar");
 	return (0);
 }
