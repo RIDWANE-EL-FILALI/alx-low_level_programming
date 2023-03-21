@@ -6,14 +6,16 @@
 *
 * Return: 0
 */
-
 int main(void)
 {
-	_putchar("_putchar");
-	return (0);
-}
+	char *sh = "Holberton";
 
-void _putchar(char *str)
-{
-        puts(str);
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
 }
