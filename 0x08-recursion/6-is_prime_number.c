@@ -7,15 +7,16 @@
  *
  * Return: 1 if the input integer is a prime number, otherwise return 0
  */
-int is_prime_number(int n)
+int is_prime_number(int prime)
 {
-	int i = 2;
-	
-	while (i <= n / 2)
-	{
-		if (n % i == 0)
-			return (1);
-		i++;
-	}
-	return (0);
+	if (prime <= 1)
+		return (0);
+	if (prime == 2)
+		return (1);
+	if ((prime % 2 == 0) || (prime % 3 == 0) || (prime % 5 == 0))
+		return (0);
+	else if (prime % 9 == 0 || prime % 7 == 0)
+		return (0);
+	else
+		return (1);
 }
