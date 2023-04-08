@@ -4,15 +4,20 @@
 /**
  * main - entry point
  *
- * Description: prints the name of the function
+ * Description: prints all the arguments separated by a new line
  *
  * @argc: amount of arguments passed through the program
  * @argv: pointer that contains the arrays of the arguments
  *
  * Return: 0
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 	return (0);
 }

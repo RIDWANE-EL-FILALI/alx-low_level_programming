@@ -11,8 +11,10 @@
  *
  * Return: 0
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	printf("%s\n", argv[0]);
+	int i = argc - 1;
+
+	printf("%d\n", i);
 	return (0);
 }
