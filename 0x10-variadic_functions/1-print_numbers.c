@@ -1,6 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include "variadic_functions.h"
+
 /**
  * print_numbers - Function that prints numbers,
  *                 followed by a new line.
@@ -9,11 +10,12 @@
  * @n: This is the input number
  *
  */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
 	unsigned int count;
-	
+
 	va_start(valist, n);
 	for (count = 0; count < n; count++)
 	{
